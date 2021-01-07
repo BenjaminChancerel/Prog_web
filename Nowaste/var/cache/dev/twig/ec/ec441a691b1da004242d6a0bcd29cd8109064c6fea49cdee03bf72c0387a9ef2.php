@@ -60,11 +60,14 @@ class __TwigTemplate_29da9a2a4ab65948ba45b16f5918bf74b125b27b9cac84aea82a9249714
     <body>
         ";
         // line 9
-        $this->displayBlock('body', $context, $blocks);
+        $this->loadTemplate("partials/navbar.html.twig", "base.html.twig", 9)->display($context);
         // line 10
         echo "        ";
-        $this->displayBlock('javascripts', $context, $blocks);
+        $this->displayBlock('body', $context, $blocks);
         // line 11
+        echo "        ";
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 12
         echo "    </body>
 </html>
 ";
@@ -113,7 +116,7 @@ class __TwigTemplate_29da9a2a4ab65948ba45b16f5918bf74b125b27b9cac84aea82a9249714
 
     }
 
-    // line 9
+    // line 10
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -131,7 +134,7 @@ class __TwigTemplate_29da9a2a4ab65948ba45b16f5918bf74b125b27b9cac84aea82a9249714
 
     }
 
-    // line 10
+    // line 11
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -154,9 +157,14 @@ class __TwigTemplate_29da9a2a4ab65948ba45b16f5918bf74b125b27b9cac84aea82a9249714
         return "base.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  135 => 10,  117 => 9,  99 => 6,  80 => 5,  68 => 11,  65 => 10,  63 => 9,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
+        return array (  138 => 11,  120 => 10,  102 => 6,  83 => 5,  71 => 12,  68 => 11,  65 => 10,  63 => 9,  59 => 7,  57 => 6,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -169,6 +177,7 @@ class __TwigTemplate_29da9a2a4ab65948ba45b16f5918bf74b125b27b9cac84aea82a9249714
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        {% include(\"partials/navbar.html.twig\") %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
