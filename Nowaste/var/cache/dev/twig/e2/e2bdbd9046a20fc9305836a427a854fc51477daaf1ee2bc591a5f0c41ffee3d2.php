@@ -1671,6 +1671,6 @@ class __TwigTemplate_7c59e970842852cc926a154c772a42c7aab094f4111463f79efaed5342d
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "C:\\Users\\hugol\\OneDrive\\Bureau\\2020-2021\\projet_web\\Prog_web\\Nowaste\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "C:\\projet web\\Prog_web\\Nowaste\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
     }
 }

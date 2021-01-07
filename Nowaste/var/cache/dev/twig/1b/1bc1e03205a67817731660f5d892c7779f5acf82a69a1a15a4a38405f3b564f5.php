@@ -644,6 +644,6 @@ class __TwigTemplate_4761733f7e3397d9a87b9581bc354117cdcadbd47aae3530ea35f17bf85
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/notifier.html.twig", "C:\\Users\\hugol\\OneDrive\\Bureau\\2020-2021\\projet_web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\notifier.html.twig");
+", "@WebProfiler/Collector/notifier.html.twig", "C:\\projet web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\notifier.html.twig");
     }
 }

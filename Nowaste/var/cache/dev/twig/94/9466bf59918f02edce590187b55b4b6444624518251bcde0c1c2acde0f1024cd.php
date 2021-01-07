@@ -710,6 +710,6 @@ class __TwigTemplate_2f11f60baaf1d4042fc8425cf9067d0f2d7b85c3f52809dbccca9b7eefd
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/mailer.html.twig", "C:\\Users\\hugol\\OneDrive\\Bureau\\2020-2021\\projet_web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\mailer.html.twig");
+", "@WebProfiler/Collector/mailer.html.twig", "C:\\projet web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\mailer.html.twig");
     }
 }

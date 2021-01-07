@@ -557,6 +557,6 @@ class __TwigTemplate_094afa616193690292f65522e126722290002b0a5632d2877d969f43feb
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Collector/http_client.html.twig", "C:\\Users\\hugol\\OneDrive\\Bureau\\2020-2021\\projet_web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
+", "@WebProfiler/Collector/http_client.html.twig", "C:\\projet web\\Prog_web\\Nowaste\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
     }
 }
